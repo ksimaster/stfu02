@@ -424,6 +424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonCutModel: {fileID: 6856390962450010996}
   cutModel: {fileID: 6856390960810040729}
+  cuttingAmountPerClick: 0
   isCut: 0
 --- !u!114 &1586672270593172899
 MonoBehaviour:
@@ -472,7 +473,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!1 &6856390962093508030
 GameObject:
   m_ObjectHideFlags: 0
